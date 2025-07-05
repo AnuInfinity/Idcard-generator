@@ -1,0 +1,88 @@
+body{
+    align-content: center;
+    background-image: url('https://www.shutterstock.com/image-vector/star-universe-background-stardust-deep-600nw-1907210152.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+.title{
+    text-align: center;
+    margin-right: -1%;
+    color: #d6d60f;
+}
+.form{
+    border-style: groove;
+    border: 10px groove #d6d60f ;
+    display: flex;
+    width: 120%;
+    height:150%;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    margin-left : -8%;
+}
+.form input{
+    padding:10px;
+    background-color: chocolate;
+    border-radius: 10px;
+    margin-top: 5px;
+    width:60%;
+    color:ivory;
+    font-style: italic;
+    font-family: cursive;
+}
+.cardpreview{
+    border-style: groove;
+    border: 10px groove #d6d60f ;
+    display: flex;
+    width: 120%;
+    height:150%;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    margin-left : -8%;
+    margin-top: 5px;
+}
+.cardtitle{
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    text-decoration: wavy;
+    text-shadow:rgb(240, 175, 11);
+    text-decoration: double;
+    color:rgb(241, 241, 11)
+}
+.image{
+    border: 5px groove #0b0b00 ;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    width:200px;
+    height:250px;
+}
+.carddetails p{
+    font-size: larger;
+    color:rgba(244, 244, 234, 0.973);
+    font-family: cursive;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+
+}
+.company{
+    background-color: rgba(235, 131, 5, 0.7); 
+    width:400px;   
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    padding: -3px;
+}
+.company h3{
+    padding: -2px;
+    margin-bottom: -1%;
+    font-size: xx-large;
+    text-shadow: #0b0b00;
+}
